@@ -14,10 +14,14 @@
     <name>common</name>
     <description>Shared events, topic names and Kafka configuration</description>
 
-    <dependencies>
+       <dependencies>
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
